@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+client/dist/
+
+# Uploads and temporary files
+uploads/
+*.log
+.DS_Store
+.env
+
+# SQLite runtime locks
+server/*.db-shm
+server/*.db-wal
